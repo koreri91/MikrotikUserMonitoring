@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mBTuugaUST5jhPB00oHOAHCb/4TTL53blAgMiet2tsMfAwfDUoYrdSiau/0VZTrpzA6Crscy2DFmxmTO/N/cOQ==",
+  "success": true,
+  "projectFilePath": "D:\\C#Project\\MikrotikUserMonitoring\\MikrotikUserMonitoring.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AvN3r\\.nuget\\packages\\tik4net\\3.5.0\\tik4net.3.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

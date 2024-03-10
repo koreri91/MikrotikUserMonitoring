@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "tik4net/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.2/tik4net.dll": {
+            "related": ".objects.xml;.xml"
+          },
+          "lib/netcoreapp2.2/tik4net.objects.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/tik4net.dll": {
+            "related": ".objects.xml;.xml"
+          },
+          "lib/netcoreapp2.2/tik4net.objects.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tik4net/3.5.0": {
+      "sha512": "tJbabNUPSjsF7vhRGVvjD8GnzROozdQEGS/l80QRgZgk9y+nxVawhqJxwvagmJobDQqMNU30RoaqFIeKTlZBQA==",
+      "type": "package",
+      "path": "tik4net/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/tik4net.dll",
+        "lib/net35/tik4net.objects.dll",
+        "lib/net35/tik4net.objects.xml",
+        "lib/net35/tik4net.xml",
+        "lib/net40/tik4net.dll",
+        "lib/net40/tik4net.objects.dll",
+        "lib/net40/tik4net.objects.xml",
+        "lib/net40/tik4net.xml",
+        "lib/net452/tik4net.dll",
+        "lib/net452/tik4net.objects.dll",
+        "lib/net452/tik4net.objects.xml",
+        "lib/net452/tik4net.xml",
+        "lib/net462/tik4net.dll",
+        "lib/net462/tik4net.objects.dll",
+        "lib/net462/tik4net.objects.xml",
+        "lib/net462/tik4net.xml",
+        "lib/netcoreapp1.1/tik4net.dll",
+        "lib/netcoreapp1.1/tik4net.objects.dll",
+        "lib/netcoreapp1.1/tik4net.objects.xml",
+        "lib/netcoreapp1.1/tik4net.xml",
+        "lib/netcoreapp2.0/tik4net.dll",
+        "lib/netcoreapp2.0/tik4net.objects.dll",
+        "lib/netcoreapp2.0/tik4net.objects.xml",
+        "lib/netcoreapp2.0/tik4net.xml",
+        "lib/netcoreapp2.2/tik4net.dll",
+        "lib/netcoreapp2.2/tik4net.objects.dll",
+        "lib/netcoreapp2.2/tik4net.objects.xml",
+        "lib/netcoreapp2.2/tik4net.xml",
+        "lib/netstandard1.3/tik4net.dll",
+        "lib/netstandard1.3/tik4net.objects.dll",
+        "lib/netstandard1.3/tik4net.objects.xml",
+        "lib/netstandard1.3/tik4net.xml",
+        "lib/netstandard1.4/tik4net.dll",
+        "lib/netstandard1.4/tik4net.objects.dll",
+        "lib/netstandard1.4/tik4net.objects.xml",
+        "lib/netstandard1.4/tik4net.xml",
+        "lib/netstandard1.6/tik4net.dll",
+        "lib/netstandard1.6/tik4net.objects.dll",
+        "lib/netstandard1.6/tik4net.objects.xml",
+        "lib/netstandard1.6/tik4net.xml",
+        "license/license.txt",
+        "tik4net.3.5.0.nupkg.sha512",
+        "tik4net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "tik4net >= 3.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AvN3r\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#Project\\MikrotikUserMonitoring\\MikrotikUserMonitoring.csproj",
+      "projectName": "MikrotikUserMonitoring",
+      "projectPath": "D:\\C#Project\\MikrotikUserMonitoring\\MikrotikUserMonitoring.csproj",
+      "packagesPath": "C:\\Users\\AvN3r\\.nuget\\packages\\",
+      "outputPath": "D:\\C#Project\\MikrotikUserMonitoring\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AvN3r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "tik4net": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
